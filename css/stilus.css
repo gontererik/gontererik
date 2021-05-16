@@ -1,0 +1,193 @@
+/*Mindenhova*/
+	body{
+		background-image: url('../kepek/hatterjobb2.png');
+		margin: 0;
+		text-align: center;
+	}
+	.mindenes{
+		margin: auto;
+	}
+	#focim{
+		margin: 0;
+		background-color: darkred;
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: lightgrey;
+	}
+	#navigaciossav{
+		width: 100%;
+		font-family: sans-serif;
+		font-size: 20px;
+		background-color: black;
+		overflow: hidden;
+		text-align: center;
+	}
+	li{
+		display:inline;
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+	a{
+		text-decoration: none;
+		color: lightgrey;
+	}
+	a:hover{
+		color:red;
+	}
+	a:active{
+		color:black;
+	}
+	#navigaciossav ul{
+		list-style: none;
+		padding: 0;
+	}
+	p{
+		
+		margin: auto;
+		font-size: 20px;
+		font-family: sans-serif;
+	}
+/*Mindenhova*/
+
+/*Kezdőlap*/
+	#kezdolapi{
+		border: 10px black dashed;
+		border-radius: 20px;
+		background-color: darkred;
+		color:lightgrey;
+		font-size: 20px;
+		line-height: 1.6em;
+		text-align: center;
+		position: relative;
+		top: 30px;
+		max-width: 700px;
+		
+	}
+
+	@media only screen and (min-width: 450px){
+	#kezdolapi{
+		border: 10px black dashed;
+		border-radius: 20px;
+		background-color: darkred;
+		color:lightgrey;
+		font-size: 30px;
+		line-height: 1.6em;
+		text-align: center;
+		position: relative;
+		top: 30px;
+		max-width: 700px;
+		}
+	}
+/*Kezdőlap*/
+/*Munka és képek oldal*/
+	.felsosima{
+		box-sizing: border-box;
+		border: 1px black solid;
+		border-radius: 20px;
+		background-color: darkred;
+		color:lightgrey;
+		font-size: 20px;
+		line-height: 1.6em;
+		text-align: center;
+		max-width: 690px;
+		width:100%;
+	}
+
+	#kepszoveg{
+		max-width: 430px;
+	}
+
+	.kepek {
+		position:relative;
+		top:100px;
+		margin: 1px;
+		width:300px;
+		border: 2px solid darkred;
+		background-color: darkred;
+		display: inline-block;
+	}
+	.kepek:hover{
+		border: 2px solid black;
+	}
+
+	.kepek img {
+		position: relative;
+		top: 2px;
+		height:200px;
+		width: 100%;
+	}
+	.leiras {
+		padding: 15px;
+		text-align: center;
+		background-color: darkred;
+		color:lightgrey;
+	}
+/*Munka és képek oldal*/
+
+/*Terv*/
+	#eloszor{
+		border: 1px black solid;
+		border-radius: 20px;
+		background-color: darkred;
+	}
+
+	.tervszoveg{
+		position: relative;
+		top:50px;
+		color:lightgrey;
+		font-size: 20px;
+		line-height: 1.6em;
+		width:100%;
+	}
+
+	#tervkep{
+		position: relative;
+		top:100px;
+		width:100%;
+	}
+
+	#nehezsegek{
+		border: 1px black solid;
+		border-radius: 20px;
+		background-color: darkred;
+		position: relative;
+		top: 100px;
+	}
+
+	@media only screen and (min-width: 800px) {
+
+	#eloszor{
+		border: 1px black solid;
+		border-radius: 20px;
+		background-color: darkred;
+		}
+
+	.tervszoveg{
+		color:lightgrey;
+		font-size: 20px;
+		line-height: 1.6em;
+		float: left;
+		width:50%;
+		position: relative;
+		top:50px;
+		}
+
+	#tervkep{
+		float: right;
+		max-width: 800px;
+		width: 40%;
+		min-width: 250px;
+		position: relative;
+		top:50px;
+		}
+
+	#nehezsegek{
+		border: 1px black solid;
+		border-radius: 20px;
+		background-color: darkred;
+		position: relative;
+		top: 150px;
+		}
+	}
+/*Terv*/
